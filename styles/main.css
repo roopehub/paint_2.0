@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(108,123,139);
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p {
+    text-align: center;
+}
+
+canvas {
+    text-align: center;
+    background-color: #feffff;
+    border: 1px solid rgb(0,0,0);
+    color: green;
+    cursor: crosshair;
+}
+
+#colorlist {
+    list-style: none;
+    width: 95%;
+    text-align: center;
+}
+
+.colors {
+     display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000000;
+}
+
+.selected {
+    border: 2px solid #feffff;
+}
+
+/*colors*/
+#black {
+    background-color: rgb(0, 0, 0);
+}
+
+#red {
+    background-color: rgb(255, 0, 0);
+}
+
+#blue {
+    background-color: rgb(0, 0, 255);
+}
+
+#green {
+    background-color: rgb(0, 255, 0);
+}
+
+#yellow {
+    background-color: rgb(255,255,0);
+}
+
+#orange {
+    background-color: rgb(255,140,0);
+}
+
+#purple {
+    background-color: rgb(128,0,128);
+}
+
+#brown { 
+    background-color: rgb(97, 65, 38);
+}
+
+#grey {
+    background-color:rgb(169,169,169);
+}
